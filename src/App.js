@@ -1,4 +1,5 @@
 import {Routes, Route} from 'react-router-dom';
+import AddUser from './Components/AddUser';
 import Calendar from './Components/Calendar';
 import CompletedTask from './Components/CompletedTask';
 import Home from './Components/Home';
@@ -17,6 +18,7 @@ function App() {
         <Route path="/completed" element={<CompletedTask />} />
         <Route path="/todo" element={<To_Do/>} />
         <Route path="/calendar" element={<Calendar/>} />
+        <Route path="/adduser" element={<AddUser/>} />
       </Routes>
     </div>
   );

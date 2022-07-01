@@ -15,6 +15,9 @@ const Nav = () => {
         <li>
             <Link to="/calendar">Calendar</Link>
         </li>
+        <li>
+            <Link to="/adduser">Add User</Link>
+        </li>
     </>
     return (
         <div class="navbar bg-base-100">
@@ -25,7 +28,6 @@ const Nav = () => {
                     </label>
                     <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
                         {HeaderMenu}
-                        <li><a>Item 3</a></li>
                     </ul>
                 </div>
                 <Link to="/" class="btn btn-ghost normal-case text-xl">Task Manage</Link>
